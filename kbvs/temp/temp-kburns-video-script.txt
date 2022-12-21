@@ -1,0 +1,17 @@
+[0:v]format=pix_fmts=yuva420p, crop=w=2*floor(iw/2):h=2*floor(ih/2), scale=w=1920:h=1080, crop=w=1920:h=1080:x='(iw-ow)/2':y='(ih-oh)/2', scale=7680x4320,zoompan=z='if(eq(on,0),1.1,zoom-0.0003333333333333334)':x='0':y='0':fps=60:d=60*5.0:s=1920x1080, drawbox=w=iw:h=ih:color=black@0.8:t=fill:enable='between(t,0,2)', drawtext=text='Title 1':line_spacing=20:fontsize=200: fontcolor=white:y=(main_h/2-text_h/2):x='if(lte(x,(main_w/2-text_w/2)),(t-0)*(main_w/2-text_w/2)/(2/2),(main_w/2-text_w/2))':borderw=1:font='Bauhaus 93':enable='between(t,0,2)', setpts=PTS-STARTPTS, setsar=1, format=rgba, split=2[v0out-end][v0out-main];
+[v0out-main]fifo,trim=start_frame=0:end_frame=240.0,setpts=PTS-STARTPTS[v0main];
+[v0out-end]fifo,trim=start_frame=240.0:end_frame=300,setpts=PTS-STARTPTS[v0end];
+[1:v]format=pix_fmts=yuva420p, crop=w=2*floor(iw/2):h=2*floor(ih/2), scale=w=1920:h=1080, crop=w=1920:h=1080:x='(iw-ow)/2':y='(ih-oh)/2', scale=7680x4320,zoompan=z='if(eq(on,0),1,zoom+0.0005555555555555556)':x='iw-iw/zoom':y='0':fps=60:d=60*3.0:s=1920x1080, setpts=PTS-STARTPTS, setsar=1, format=rgba, split=3[v1out-start][v1out-end][v1out-main];
+[v1out-start]fifo,trim=start_frame=0:end_frame=60.0,setpts=PTS-STARTPTS[v1start];
+[v1out-main]fifo,trim=start_frame=60.0:end_frame=120.0,setpts=PTS-STARTPTS[v1main];
+[v1out-end]fifo,trim=start_frame=120.0:end_frame=180,setpts=PTS-STARTPTS[v1end];
+[2:v]format=pix_fmts=yuva420p, crop=w=2*floor(iw/2):h=2*floor(ih/2), scale=w=1920:h=1080, crop=w=1920:h=1080:x='(iw-ow)/2':y='(ih-oh)/2', scale=7680x4320,zoompan=z='if(eq(on,0),1.1,zoom-0.0005555555555555556)':x='0':y='0':fps=60:d=60*3.0:s=1920x1080, setpts=PTS-STARTPTS, setsar=1, format=rgba, split=2[v2out-start][v2out-main];
+[v2out-start]fifo,trim=start_frame=0:end_frame=60.0,setpts=PTS-STARTPTS[v2start];
+[v2out-main]fifo,trim=start_frame=60.0:end_frame=180,setpts=PTS-STARTPTS[v2main];
+[v0end] [v1start] blend=all_expr='A*(1-T/1.0)+B*(T/1.0)':shortest=1 [v1trans];
+[v1end] [v2start] blend=all_expr='A*(1-T/1.0)+B*(T/1.0)':shortest=1 [v2trans];
+[v0main][v1trans][v1main][v2trans][v2main] concat=n=5:v=1:a=0,format=yuv420p[out];
+[3:a] concat=n=1:v=0:a=1[background_audio];
+[background_audio]asplit=1 [b0];
+[b0]afade=t=in:st=0.0:d=3.0,afade=t=out:st=6.0:d=3.0[b0f];
+[b0f] amix=inputs=1[aout]

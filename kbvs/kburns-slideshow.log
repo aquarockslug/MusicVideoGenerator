@@ -1,0 +1,292 @@
+2022-12-20 02:02:02,376 | DEBUG | Init CLI
+2022-12-20 02:02:02,413 | DEBUG | Load from file: example.json
+2022-12-20 02:02:02,414 | DEBUG | overwrite config
+2022-12-20 02:02:02,415 | DEBUG | get slides
+2022-12-20 02:02:02,416 | DEBUG | get audio
+2022-12-20 02:02:02,416 | DEBUG | Save config: None
+2022-12-20 02:02:02,563 | DEBUG | Init SlideManager
+2022-12-20 02:02:02,563 | DEBUG | Slide: {'file': 'data\\1.jpg', 'slide_duration': 5, 'overlay_text': {'title': 'Title 1', 'font': 'Bauhaus 93', 'font_size': 200, 'duration': 2, 'transition_x': 'left-to-center', 'transition_y': 'center', 'offset': 0}, 'overlay_color': {'color': 'black', 'opacity': 0.8, 'duration': 2, 'offset': 0}}
+2022-12-20 02:06:15,420 | DEBUG | Init CLI
+2022-12-20 02:06:15,438 | DEBUG | Load from file: example.json
+2022-12-20 02:06:15,438 | DEBUG | overwrite config
+2022-12-20 02:06:15,439 | DEBUG | get slides
+2022-12-20 02:06:15,439 | DEBUG | get audio
+2022-12-20 02:06:15,439 | DEBUG | Save config: None
+2022-12-20 02:06:15,507 | DEBUG | Init SlideManager
+2022-12-20 02:06:15,507 | DEBUG | Slide: {'file': 'data\\1.png', 'slide_duration': 5, 'overlay_text': {'title': 'Title 1', 'font': 'Bauhaus 93', 'font_size': 200, 'duration': 2, 'transition_x': 'left-to-center', 'transition_y': 'center', 'offset': 0}, 'overlay_color': {'color': 'black', 'opacity': 0.8, 'duration': 2, 'offset': 0}}
+2022-12-20 02:06:15,601 | DEBUG | added valid video/image file
+2022-12-20 02:06:15,601 | DEBUG | Slide: {'file': 'data\\2.png', 'title': 'subtitle'}
+2022-12-20 02:06:15,690 | DEBUG | added valid video/image file
+2022-12-20 02:06:15,690 | DEBUG | Slide: {'file': 'data\\2.mp4', 'overlay_text': {'title': 'Title 2', 'font': 'Bauhaus 93', 'font_size': 200, 'duration': 2, 'transition_x': 'center', 'transition_y': 'bottom-to-top', 'offset': 0}, 'overlay_color': {'color': 'black', 'opacity': 0.8, 'duration': 2, 'offset': 0}}
+2022-12-20 02:06:18,178 | DEBUG | added valid video/image file
+2022-12-20 02:06:18,179 | DEBUG | Slide: {'file': 'data\\3.jpg'}
+2022-12-20 02:06:59,215 | DEBUG | Init CLI
+2022-12-20 02:06:59,232 | DEBUG | Load from file: example.json
+2022-12-20 02:06:59,232 | DEBUG | overwrite config
+2022-12-20 02:06:59,232 | DEBUG | get slides
+2022-12-20 02:06:59,233 | DEBUG | get audio
+2022-12-20 02:06:59,233 | DEBUG | Save config: None
+2022-12-20 02:06:59,303 | DEBUG | Init SlideManager
+2022-12-20 02:06:59,303 | DEBUG | Slide: {'file': 'data\\1.png', 'slide_duration': 5, 'overlay_text': {'title': 'Title 1', 'font': 'Bauhaus 93', 'font_size': 200, 'duration': 2, 'transition_x': 'left-to-center', 'transition_y': 'center', 'offset': 0}, 'overlay_color': {'color': 'black', 'opacity': 0.8, 'duration': 2, 'offset': 0}}
+2022-12-20 02:06:59,384 | DEBUG | added valid video/image file
+2022-12-20 02:06:59,384 | DEBUG | Slide: {'file': 'data\\2.png', 'title': 'subtitle'}
+2022-12-20 02:06:59,467 | DEBUG | added valid video/image file
+2022-12-20 02:06:59,467 | DEBUG | Slide: {'file': 'data\\2.mp4', 'overlay_text': {'title': 'Title 2', 'font': 'Bauhaus 93', 'font_size': 200, 'duration': 2, 'transition_x': 'center', 'transition_y': 'bottom-to-top', 'offset': 0}, 'overlay_color': {'color': 'black', 'opacity': 0.8, 'duration': 2, 'offset': 0}}
+2022-12-20 02:06:59,784 | DEBUG | added valid video/image file
+2022-12-20 02:06:59,784 | DEBUG | Slide: {'file': 'data\\3.png'}
+2022-12-20 02:06:59,854 | DEBUG | added valid video/image file
+2022-12-20 02:06:59,854 | DEBUG | Audiofile: data/music.mp3
+2022-12-20 02:08:24,686 | DEBUG | Init CLI
+2022-12-20 02:08:24,703 | DEBUG | Load from file: example.json
+2022-12-20 02:08:24,703 | DEBUG | overwrite config
+2022-12-20 02:08:24,703 | DEBUG | get slides
+2022-12-20 02:08:24,703 | DEBUG | get audio
+2022-12-20 02:08:24,703 | DEBUG | Save config: None
+2022-12-20 02:08:24,765 | DEBUG | Init SlideManager
+2022-12-20 02:08:24,765 | DEBUG | Slide: {'file': 'data\\1.png', 'slide_duration': 5, 'overlay_text': {'title': 'Title 1', 'font': 'Bauhaus 93', 'font_size': 200, 'duration': 2, 'transition_x': 'left-to-center', 'transition_y': 'center', 'offset': 0}, 'overlay_color': {'color': 'black', 'opacity': 0.8, 'duration': 2, 'offset': 0}}
+2022-12-20 02:08:24,843 | DEBUG | added valid video/image file
+2022-12-20 02:08:24,844 | DEBUG | Slide: {'file': 'data\\2.png', 'title': 'subtitle'}
+2022-12-20 02:08:24,931 | DEBUG | added valid video/image file
+2022-12-20 02:08:24,932 | DEBUG | Slide: {'file': 'data\\2.mp4', 'overlay_text': {'title': 'Title 2', 'font': 'Bauhaus 93', 'font_size': 200, 'duration': 2, 'transition_x': 'center', 'transition_y': 'bottom-to-top', 'offset': 0}, 'overlay_color': {'color': 'black', 'opacity': 0.8, 'duration': 2, 'offset': 0}}
+2022-12-20 02:08:25,237 | DEBUG | added valid video/image file
+2022-12-20 02:08:25,238 | DEBUG | Slide: {'file': 'data\\3.png'}
+2022-12-20 02:08:25,300 | DEBUG | added valid video/image file
+2022-12-20 02:08:25,301 | DEBUG | Audiofile: data/music.mp3
+2022-12-20 02:08:25,386 | DEBUG | added valid audio file
+2022-12-20 02:08:25,386 | INFO | Create video out.mp4
+2022-12-20 02:08:25,388 | INFO | Video length: 135.05
+2022-12-20 02:08:25,388 | INFO | Background track length: 299.092449
+2022-12-20 02:08:25,389 | DEBUG | get Video Filter Chains
+2022-12-20 02:08:25,397 | DEBUG | get Audio Filter Chains
+2022-12-20 02:08:25,401 | INFO | Number of Frames: 8103.0
+2022-12-20 02:08:25,402 | INFO | FFMPEG started
+2022-12-20 02:08:25,402 | DEBUG | C:/Users/zachl/Desktop/MusicVideoGenerator/generator/ffmpeg/bin/ffmpeg.exe -hide_banner -stats  -i "data\1.png"  -i "data\2.png"  -i "data\2.mp4"  -i "data\3.png"  -i "data/music.mp3"   -filter_complex_script "C:\Users\zachl\Desktop\MusicVideoGenerator\generator\temp\temp-kburns-video-script.txt" -t 135.05 -map [out]:v -c:v libx264 -preset ultrafast -tune stillimage -map [aout]:a -c:a aac -b:a 160k   "out.mp4"
+2022-12-20 02:08:28,888 | INFO | FFMPEG finished
+2022-12-20 02:08:28,889 | INFO | Clean Video processing
+2022-12-20 02:10:58,082 | DEBUG | Init CLI
+2022-12-20 02:10:58,122 | DEBUG | Load from file: example.json
+2022-12-20 02:10:58,123 | DEBUG | overwrite config
+2022-12-20 02:10:58,123 | DEBUG | get slides
+2022-12-20 02:10:58,123 | DEBUG | get audio
+2022-12-20 02:10:58,123 | DEBUG | Save config: None
+2022-12-20 02:10:58,244 | DEBUG | Init SlideManager
+2022-12-20 02:10:58,244 | DEBUG | Slide: {'file': 'data\\1.png', 'slide_duration': 5, 'overlay_text': {'title': 'Title 1', 'font': 'Bauhaus 93', 'font_size': 200, 'duration': 2, 'transition_x': 'left-to-center', 'transition_y': 'center', 'offset': 0}, 'overlay_color': {'color': 'black', 'opacity': 0.8, 'duration': 2, 'offset': 0}}
+2022-12-20 02:10:58,337 | DEBUG | added valid video/image file
+2022-12-20 02:10:58,337 | DEBUG | Slide: {'file': 'data\\2.png', 'title': 'subtitle'}
+2022-12-20 02:10:58,421 | DEBUG | added valid video/image file
+2022-12-20 02:10:58,421 | DEBUG | Slide: {'file': 'data\\2.mp4', 'overlay_text': {'title': 'Title 2', 'font': 'Bauhaus 93', 'font_size': 200, 'duration': 2, 'transition_x': 'center', 'transition_y': 'bottom-to-top', 'offset': 0}, 'overlay_color': {'color': 'black', 'opacity': 0.8, 'duration': 2, 'offset': 0}}
+2022-12-20 02:10:58,762 | DEBUG | added valid video/image file
+2022-12-20 02:10:58,762 | DEBUG | Slide: {'file': 'data\\3.png'}
+2022-12-20 02:10:58,829 | DEBUG | added valid video/image file
+2022-12-20 02:10:58,829 | DEBUG | Audiofile: data/music.mp3
+2022-12-20 02:10:58,901 | DEBUG | added valid audio file
+2022-12-20 02:10:58,902 | INFO | Create video out.mp4
+2022-12-20 02:10:58,903 | INFO | Video length: 135.05
+2022-12-20 02:10:58,904 | INFO | Background track length: 299.092449
+2022-12-20 02:10:58,905 | DEBUG | get Video Filter Chains
+2022-12-20 02:10:58,913 | DEBUG | get Audio Filter Chains
+2022-12-20 02:10:58,916 | INFO | Number of Frames: 8103.0
+2022-12-20 02:10:58,916 | INFO | FFMPEG started
+2022-12-20 02:10:58,916 | DEBUG | C:/Users/zachl/Desktop/MusicVideoGenerator/generator/ffmpeg/bin/ffmpeg.exe -hide_banner -stats  -i "data\1.png"  -i "data\2.png"  -i "data\2.mp4"  -i "data\3.png"  -i "data/music.mp3"   -filter_complex_script "C:\Users\zachl\Desktop\MusicVideoGenerator\generator\temp\temp-kburns-video-script.txt" -t 135.05 -map [out]:v -c:v libx264 -preset ultrafast -tune stillimage -map [aout]:a -c:a aac -b:a 160k   "out.mp4"
+2022-12-20 02:10:59,683 | INFO | FFMPEG finished
+2022-12-20 02:10:59,683 | INFO | Clean Video processing
+2022-12-20 02:12:23,011 | DEBUG | Init CLI
+2022-12-20 02:12:23,034 | DEBUG | Load from file: example.json
+2022-12-20 02:12:23,034 | DEBUG | overwrite config
+2022-12-20 02:12:23,034 | DEBUG | get slides
+2022-12-20 02:12:23,034 | DEBUG | get audio
+2022-12-20 02:12:23,035 | DEBUG | Save config: None
+2022-12-20 02:12:23,105 | DEBUG | Init SlideManager
+2022-12-20 02:12:23,106 | DEBUG | Slide: {'file': 'data\\1.png', 'slide_duration': 5, 'overlay_text': {'title': 'Title 1', 'font': 'Bauhaus 93', 'font_size': 200, 'duration': 2, 'transition_x': 'left-to-center', 'transition_y': 'center', 'offset': 0}, 'overlay_color': {'color': 'black', 'opacity': 0.8, 'duration': 2, 'offset': 0}}
+2022-12-20 02:12:23,191 | DEBUG | added valid video/image file
+2022-12-20 02:12:23,191 | DEBUG | Slide: {'file': 'data\\2.png', 'title': 'subtitle'}
+2022-12-20 02:12:23,267 | DEBUG | added valid video/image file
+2022-12-20 02:12:23,267 | DEBUG | Slide: {'file': 'data\\2.mp4', 'overlay_text': {'title': 'Title 2', 'font': 'Bauhaus 93', 'font_size': 200, 'duration': 2, 'transition_x': 'center', 'transition_y': 'bottom-to-top', 'offset': 0}, 'overlay_color': {'color': 'black', 'opacity': 0.8, 'duration': 2, 'offset': 0}}
+2022-12-20 02:12:23,604 | DEBUG | added valid video/image file
+2022-12-20 02:12:23,604 | DEBUG | Slide: {'file': 'data\\3.png'}
+2022-12-20 02:12:23,669 | DEBUG | added valid video/image file
+2022-12-20 02:12:23,669 | DEBUG | Audiofile: data/music.mp3
+2022-12-20 02:12:23,741 | DEBUG | added valid audio file
+2022-12-20 02:12:23,741 | INFO | Create video out.mp4
+2022-12-20 02:12:23,743 | INFO | Video length: 135.05
+2022-12-20 02:12:23,743 | INFO | Background track length: 299.092449
+2022-12-20 02:12:23,744 | DEBUG | get Video Filter Chains
+2022-12-20 02:12:23,748 | DEBUG | get Audio Filter Chains
+2022-12-20 02:12:23,751 | INFO | Number of Frames: 8103.0
+2022-12-20 02:12:23,752 | INFO | FFMPEG started
+2022-12-20 02:12:23,752 | DEBUG | C:/Users/zachl/Desktop/MusicVideoGenerator/generator/ffmpeg/bin/ffmpeg.exe -hide_banner -stats  -i "data\1.png"  -i "data\2.png"  -i "data\2.mp4"  -i "data\3.png"  -i "data/music.mp3"   -filter_complex_script "C:\Users\zachl\Desktop\MusicVideoGenerator\generator\temp\temp-kburns-video-script.txt" -t 135.05 -map [out]:v -c:v libx264 -preset ultrafast -tune stillimage -map [aout]:a -c:a aac -b:a 160k   "out.mp4"
+2022-12-20 02:12:24,453 | INFO | FFMPEG finished
+2022-12-20 02:12:24,453 | INFO | Clean Video processing
+2022-12-20 02:16:02,850 | DEBUG | Init CLI
+2022-12-20 02:16:02,870 | DEBUG | Load from file: example.json
+2022-12-20 02:16:02,870 | DEBUG | overwrite config
+2022-12-20 02:16:02,870 | DEBUG | get slides
+2022-12-20 02:16:02,870 | DEBUG | get audio
+2022-12-20 02:16:02,871 | DEBUG | Save config: None
+2022-12-20 02:16:02,876 | DEBUG | Temporary directory C:\Users\zachl\Desktop\MusicVideoGenerator\generator\temp created
+2022-12-20 02:16:02,957 | DEBUG | Init SlideManager
+2022-12-20 02:16:02,957 | DEBUG | Slide: {'file': 'data\\1.png', 'slide_duration': 5, 'overlay_text': {'title': 'Title 1', 'font': 'Bauhaus 93', 'font_size': 200, 'duration': 2, 'transition_x': 'left-to-center', 'transition_y': 'center', 'offset': 0}, 'overlay_color': {'color': 'black', 'opacity': 0.8, 'duration': 2, 'offset': 0}}
+2022-12-20 02:16:03,086 | DEBUG | added valid video/image file
+2022-12-20 02:16:03,086 | DEBUG | Slide: {'file': 'data\\2.png', 'title': 'subtitle'}
+2022-12-20 02:16:03,177 | DEBUG | added valid video/image file
+2022-12-20 02:16:03,177 | DEBUG | Slide: {'file': 'data\\2.mp4', 'overlay_text': {'title': 'Title 2', 'font': 'Bauhaus 93', 'font_size': 200, 'duration': 2, 'transition_x': 'center', 'transition_y': 'bottom-to-top', 'offset': 0}, 'overlay_color': {'color': 'black', 'opacity': 0.8, 'duration': 2, 'offset': 0}}
+2022-12-20 02:16:03,675 | DEBUG | added valid video/image file
+2022-12-20 02:16:03,675 | DEBUG | Slide: {'file': 'data\\3.png'}
+2022-12-20 02:16:03,749 | DEBUG | added valid video/image file
+2022-12-20 02:16:03,749 | DEBUG | Audiofile: data/music.mp3
+2022-12-20 02:16:03,840 | DEBUG | added valid audio file
+2022-12-20 02:16:03,840 | INFO | Create video out.mp4
+2022-12-20 02:16:03,842 | INFO | Video length: 135.05
+2022-12-20 02:16:03,842 | INFO | Background track length: 299.092449
+2022-12-20 02:16:03,844 | DEBUG | get Video Filter Chains
+2022-12-20 02:16:03,845 | DEBUG | get Audio Filter Chains
+2022-12-20 02:16:03,849 | INFO | Number of Frames: 8103.0
+2022-12-20 02:16:03,849 | INFO | FFMPEG started
+2022-12-20 02:16:03,849 | DEBUG | C:/Users/zachl/Desktop/MusicVideoGenerator/generator/ffmpeg/bin/ffmpeg.exe -hide_banner -stats  -i "data\1.png"  -i "data\2.png"  -i "data\2.mp4"  -i "data\3.png"  -i "data/music.mp3"   -filter_complex_script "C:\Users\zachl\Desktop\MusicVideoGenerator\generator\temp\temp-kburns-video-script.txt" -t 135.05 -map [out]:v -c:v libx264 -preset ultrafast -tune stillimage -map [aout]:a -c:a aac -b:a 160k   "out.mp4"
+2022-12-20 02:16:05,242 | INFO | FFMPEG finished
+2022-12-20 02:16:05,242 | INFO | Clean Video processing
+2022-12-20 02:16:51,063 | DEBUG | Init CLI
+2022-12-20 02:16:51,082 | DEBUG | Load from file: example.json
+2022-12-20 02:16:51,082 | DEBUG | overwrite config
+2022-12-20 02:16:51,082 | DEBUG | get slides
+2022-12-20 02:16:51,082 | DEBUG | get audio
+2022-12-20 02:16:51,082 | DEBUG | Save config: None
+2022-12-20 02:16:51,146 | DEBUG | Init SlideManager
+2022-12-20 02:16:51,146 | DEBUG | Slide: {'file': 'data\\1.png', 'slide_duration': 5, 'overlay_text': {'title': 'Title 1', 'font': 'Bauhaus 93', 'font_size': 200, 'duration': 2, 'transition_x': 'left-to-center', 'transition_y': 'center', 'offset': 0}, 'overlay_color': {'color': 'black', 'opacity': 0.8, 'duration': 2, 'offset': 0}}
+2022-12-20 02:16:51,225 | DEBUG | added valid video/image file
+2022-12-20 02:16:51,225 | DEBUG | Slide: {'file': 'data\\2.png'}
+2022-12-20 02:16:51,301 | DEBUG | added valid video/image file
+2022-12-20 02:16:51,301 | DEBUG | Slide: {'file': 'data\\2.mp4', 'overlay_text': {'title': 'Title 2', 'font': 'Bauhaus 93', 'font_size': 200, 'duration': 2, 'transition_x': 'center', 'transition_y': 'bottom-to-top', 'offset': 0}, 'overlay_color': {'color': 'black', 'opacity': 0.8, 'duration': 2, 'offset': 0}}
+2022-12-20 02:16:51,620 | DEBUG | added valid video/image file
+2022-12-20 02:16:51,620 | DEBUG | Slide: {'file': 'data\\3.png'}
+2022-12-20 02:16:51,683 | DEBUG | added valid video/image file
+2022-12-20 02:16:51,683 | DEBUG | Audiofile: data/music.mp3
+2022-12-20 02:16:51,753 | DEBUG | added valid audio file
+2022-12-20 02:16:51,753 | INFO | Create video out.mp4
+2022-12-20 02:16:51,755 | INFO | Video length: 135.05
+2022-12-20 02:16:51,755 | INFO | Background track length: 299.092449
+2022-12-20 02:16:51,755 | DEBUG | get Video Filter Chains
+2022-12-20 02:16:51,762 | DEBUG | get Audio Filter Chains
+2022-12-20 02:16:51,764 | INFO | Number of Frames: 8103.0
+2022-12-20 02:16:51,765 | INFO | FFMPEG started
+2022-12-20 02:16:51,765 | DEBUG | C:/Users/zachl/Desktop/MusicVideoGenerator/generator/ffmpeg/bin/ffmpeg.exe -hide_banner -stats  -i "data\1.png"  -i "data\2.png"  -i "data\2.mp4"  -i "data\3.png"  -i "data/music.mp3"   -filter_complex_script "C:\Users\zachl\Desktop\MusicVideoGenerator\generator\temp\temp-kburns-video-script.txt" -t 135.05 -map [out]:v -c:v libx264 -preset ultrafast -tune stillimage -map [aout]:a -c:a aac -b:a 160k   "out.mp4"
+2022-12-20 02:23:02,247 | INFO | FFMPEG finished
+2022-12-20 02:23:02,315 | INFO | Clean Video processing
+2022-12-20 02:28:28,281 | DEBUG | Init CLI
+2022-12-20 02:28:28,288 | DEBUG | Load from file: slideshows/example.json
+2022-12-20 02:28:28,288 | DEBUG | overwrite config
+2022-12-20 02:28:28,288 | DEBUG | get slides
+2022-12-20 02:28:28,288 | DEBUG | get audio
+2022-12-20 02:28:28,288 | DEBUG | Save config: None
+2022-12-20 02:28:28,289 | DEBUG | Temporary directory C:\Users\zachl\Desktop\MusicVideoGenerator\temp created
+2022-12-20 02:29:22,721 | DEBUG | Init CLI
+2022-12-20 02:29:22,727 | DEBUG | Load from file: slideshows/example.json
+2022-12-20 02:29:22,727 | DEBUG | overwrite config
+2022-12-20 02:29:22,727 | DEBUG | get slides
+2022-12-20 02:29:22,728 | DEBUG | get audio
+2022-12-20 02:29:22,728 | DEBUG | Save config: None
+2022-12-20 02:29:22,821 | DEBUG | Init SlideManager
+2022-12-20 02:29:22,821 | DEBUG | Slide: {'file': 'data\\1.png', 'slide_duration': 5, 'overlay_text': {'title': 'Title 1', 'font': 'Bauhaus 93', 'font_size': 200, 'duration': 2, 'transition_x': 'left-to-center', 'transition_y': 'center', 'offset': 0}, 'overlay_color': {'color': 'black', 'opacity': 0.8, 'duration': 2, 'offset': 0}}
+2022-12-20 02:30:19,103 | DEBUG | Init CLI
+2022-12-20 02:30:19,109 | DEBUG | Load from file: slideshows/example.json
+2022-12-20 02:30:19,109 | DEBUG | overwrite config
+2022-12-20 02:30:19,109 | DEBUG | get slides
+2022-12-20 02:30:19,109 | DEBUG | get audio
+2022-12-20 02:30:19,109 | DEBUG | Save config: None
+2022-12-20 02:30:19,172 | DEBUG | Init SlideManager
+2022-12-20 02:30:19,172 | DEBUG | Slide: {'file': 'data\\1.png', 'slide_duration': 5, 'overlay_text': {'title': 'Title 1', 'font': 'Bauhaus 93', 'font_size': 200, 'duration': 2, 'transition_x': 'left-to-center', 'transition_y': 'center', 'offset': 0}, 'overlay_color': {'color': 'black', 'opacity': 0.8, 'duration': 2, 'offset': 0}}
+2022-12-20 02:32:45,251 | DEBUG | Init CLI
+2022-12-20 02:32:45,257 | DEBUG | Load from file: slideshows/example.json
+2022-12-20 02:32:45,257 | DEBUG | overwrite config
+2022-12-20 02:32:45,258 | DEBUG | get slides
+2022-12-20 02:32:45,258 | DEBUG | get audio
+2022-12-20 02:32:45,258 | DEBUG | Save config: None
+2022-12-20 02:32:45,318 | DEBUG | Init SlideManager
+2022-12-20 02:32:45,318 | DEBUG | Slide: {'file': 'data\\1.png', 'slide_duration': 5, 'overlay_text': {'title': 'Title 1', 'font': 'Bauhaus 93', 'font_size': 200, 'duration': 2, 'transition_x': 'left-to-center', 'transition_y': 'center', 'offset': 0}, 'overlay_color': {'color': 'black', 'opacity': 0.8, 'duration': 2, 'offset': 0}}
+2022-12-20 02:37:01,229 | DEBUG | Init CLI
+2022-12-20 02:37:01,234 | DEBUG | Load from file: kbvs/example.json
+2022-12-20 02:37:01,235 | DEBUG | overwrite config
+2022-12-20 02:37:01,235 | DEBUG | get slides
+2022-12-20 02:37:01,235 | DEBUG | get audio
+2022-12-20 02:37:01,235 | DEBUG | Save config: None
+2022-12-20 02:37:01,298 | DEBUG | Init SlideManager
+2022-12-20 02:37:01,298 | DEBUG | Slide: {'file': 'data\\1.png', 'slide_duration': 5, 'overlay_text': {'title': 'Title 1', 'font': 'Bauhaus 93', 'font_size': 200, 'duration': 2, 'transition_x': 'left-to-center', 'transition_y': 'center', 'offset': 0}, 'overlay_color': {'color': 'black', 'opacity': 0.8, 'duration': 2, 'offset': 0}}
+2022-12-20 02:37:29,731 | DEBUG | Init CLI
+2022-12-20 02:37:29,748 | DEBUG | Load from file: example.json
+2022-12-20 02:37:29,749 | DEBUG | overwrite config
+2022-12-20 02:37:29,749 | DEBUG | get slides
+2022-12-20 02:37:29,749 | DEBUG | get audio
+2022-12-20 02:37:29,749 | DEBUG | Save config: None
+2022-12-20 02:37:29,810 | DEBUG | Init SlideManager
+2022-12-20 02:37:29,810 | DEBUG | Slide: {'file': 'data\\1.png', 'slide_duration': 5, 'overlay_text': {'title': 'Title 1', 'font': 'Bauhaus 93', 'font_size': 200, 'duration': 2, 'transition_x': 'left-to-center', 'transition_y': 'center', 'offset': 0}, 'overlay_color': {'color': 'black', 'opacity': 0.8, 'duration': 2, 'offset': 0}}
+2022-12-20 02:37:29,905 | DEBUG | added valid video/image file
+2022-12-20 02:37:29,906 | DEBUG | Slide: {'file': 'data\\2.png'}
+2022-12-20 02:37:29,986 | DEBUG | added valid video/image file
+2022-12-20 02:37:29,987 | DEBUG | Slide: {'file': 'data\\2.mp4', 'overlay_text': {'title': 'Title 2', 'font': 'Bauhaus 93', 'font_size': 200, 'duration': 2, 'transition_x': 'center', 'transition_y': 'bottom-to-top', 'offset': 0}, 'overlay_color': {'color': 'black', 'opacity': 0.8, 'duration': 2, 'offset': 0}}
+2022-12-20 02:37:32,463 | DEBUG | added valid video/image file
+2022-12-20 02:37:32,463 | DEBUG | Slide: {'file': 'data\\3.png'}
+2022-12-20 02:37:32,524 | DEBUG | added valid video/image file
+2022-12-20 02:37:32,525 | DEBUG | Audiofile: data/music.mp3
+2022-12-20 02:37:32,595 | DEBUG | added valid audio file
+2022-12-20 02:37:32,596 | INFO | Create video out.mp4
+2022-12-20 02:37:32,598 | INFO | Video length: 135.05
+2022-12-20 02:37:32,598 | INFO | Background track length: 299.092449
+2022-12-20 02:37:32,598 | DEBUG | get Video Filter Chains
+2022-12-20 02:37:32,605 | DEBUG | get Audio Filter Chains
+2022-12-20 02:37:32,607 | INFO | Number of Frames: 8103.0
+2022-12-20 02:37:32,608 | INFO | FFMPEG started
+2022-12-20 02:37:32,608 | DEBUG | C:/Users/zachl/Desktop/MusicVideoGenerator/kbvs/ffmpeg/bin/ffmpeg.exe -hide_banner -stats  -i "data\1.png"  -i "data\2.png"  -i "data\2.mp4"  -i "data\3.png"  -i "data/music.mp3"   -filter_complex_script "C:\Users\zachl\Desktop\MusicVideoGenerator\kbvs\temp\temp-kburns-video-script.txt" -t 135.05 -map [out]:v -c:v libx264 -preset ultrafast -tune stillimage -map [aout]:a -c:a aac -b:a 160k   "out.mp4"
+2022-12-20 02:42:57,810 | INFO | FFMPEG finished
+2022-12-20 02:42:57,827 | INFO | Clean Video processing
+2022-12-20 03:05:50,247 | DEBUG | Init CLI
+2022-12-20 03:05:50,270 | DEBUG | Load from file: example.json
+2022-12-20 03:05:50,271 | DEBUG | overwrite config
+2022-12-20 03:05:50,271 | DEBUG | get slides
+2022-12-20 03:05:50,271 | DEBUG | get audio
+2022-12-20 03:05:50,271 | DEBUG | Save config: None
+2022-12-20 03:05:50,383 | DEBUG | Init SlideManager
+2022-12-20 03:05:50,383 | DEBUG | Slide: {'file': 'data\\1.png', 'slide_duration': 5, 'overlay_text': {'title': 'Title 1', 'font': 'Bauhaus 93', 'font_size': 200, 'duration': 2, 'transition_x': 'left-to-center', 'transition_y': 'center', 'offset': 0}, 'overlay_color': {'color': 'black', 'opacity': 0.8, 'duration': 2, 'offset': 0}}
+2022-12-20 03:05:50,487 | DEBUG | added valid video/image file
+2022-12-20 03:05:50,487 | DEBUG | Slide: {'file': 'data\\2.png'}
+2022-12-20 03:05:50,563 | DEBUG | added valid video/image file
+2022-12-20 03:05:50,563 | DEBUG | Slide: {'file': 'data\\2.mp4', 'overlay_text': {'title': 'Title 2', 'font': 'Bauhaus 93', 'font_size': 200, 'duration': 2, 'transition_x': 'center', 'transition_y': 'bottom-to-top', 'offset': 0}, 'overlay_color': {'color': 'black', 'opacity': 0.8, 'duration': 2, 'offset': 0}}
+2022-12-20 03:05:53,049 | DEBUG | added valid video/image file
+2022-12-20 03:05:53,050 | DEBUG | Slide: {'file': 'data\\3.png'}
+2022-12-20 03:05:53,120 | DEBUG | added valid video/image file
+2022-12-20 03:05:53,120 | DEBUG | Audiofile: data/music.mp3
+2022-12-20 03:05:53,197 | DEBUG | added valid audio file
+2022-12-20 03:05:53,197 | INFO | Create video out.mp4
+2022-12-20 03:05:53,199 | INFO | Video length: 135.05
+2022-12-20 03:05:53,199 | INFO | Background track length: 299.092449
+2022-12-20 03:05:53,199 | DEBUG | get Video Filter Chains
+2022-12-20 03:05:53,200 | DEBUG | get Audio Filter Chains
+2022-12-20 03:05:53,202 | INFO | Number of Frames: 8103.0
+2022-12-20 03:05:53,203 | INFO | FFMPEG started
+2022-12-20 03:05:53,203 | DEBUG | C:/Users/zachl/Desktop/MusicVideoGenerator/kbvs/ffmpeg/bin/ffmpeg.exe -hide_banner -stats  -i "data\1.png"  -i "data\2.png"  -i "data\2.mp4"  -i "data\3.png"  -i "data/music.mp3"   -filter_complex_script "C:\Users\zachl\Desktop\MusicVideoGenerator\kbvs\temp\temp-kburns-video-script.txt" -t 135.05 -map [out]:v -c:v libx264 -preset ultrafast -tune stillimage -map [aout]:a -c:a aac -b:a 160k   "out.mp4"
+2022-12-20 03:09:16,253 | DEBUG | Init CLI
+2022-12-20 03:09:16,270 | DEBUG | Load from file: example.json
+2022-12-20 03:10:00,910 | DEBUG | Init CLI
+2022-12-20 03:10:00,928 | DEBUG | Load from file: example.json
+2022-12-20 03:10:00,929 | DEBUG | overwrite config
+2022-12-20 03:10:00,929 | DEBUG | get slides
+2022-12-20 03:10:00,929 | DEBUG | get audio
+2022-12-20 03:10:00,929 | DEBUG | Save config: None
+2022-12-20 03:10:00,997 | DEBUG | Init SlideManager
+2022-12-20 03:10:00,998 | DEBUG | Slide: {'file': 'data\\1.png', 'slide_duration': 5, 'overlay_text': {'title': 'Title 1', 'font': 'Bauhaus 93', 'font_size': 200, 'duration': 2, 'transition_x': 'left-to-center', 'transition_y': 'center', 'offset': 0}, 'overlay_color': {'color': 'black', 'opacity': 0.8, 'duration': 2, 'offset': 0}}
+2022-12-20 03:10:01,081 | DEBUG | added valid video/image file
+2022-12-20 03:10:01,081 | DEBUG | Slide: {'file': 'data\\2.png'}
+2022-12-20 03:10:01,163 | DEBUG | added valid video/image file
+2022-12-20 03:10:01,163 | DEBUG | Slide: {'file': 'data\\3.png'}
+2022-12-20 03:10:01,231 | DEBUG | added valid video/image file
+2022-12-20 03:10:01,231 | DEBUG | Audiofile: data/music.mp3
+2022-12-20 03:10:01,306 | DEBUG | added valid audio file
+2022-12-20 03:10:01,306 | INFO | Create video out.mp4
+2022-12-20 03:10:01,307 | INFO | Video length: 9.0
+2022-12-20 03:10:01,307 | INFO | Background track length: 172.042449
+2022-12-20 03:10:01,308 | DEBUG | get Video Filter Chains
+2022-12-20 03:10:01,308 | DEBUG | get Audio Filter Chains
+2022-12-20 03:10:01,309 | INFO | Number of Frames: 540.0
+2022-12-20 03:10:01,310 | INFO | FFMPEG started
+2022-12-20 03:10:01,310 | DEBUG | C:/Users/zachl/Desktop/MusicVideoGenerator/kbvs/ffmpeg/bin/ffmpeg.exe -hide_banner -stats  -i "data\1.png"  -i "data\2.png"  -i "data\3.png"  -i "data/music.mp3"   -filter_complex_script "C:\Users\zachl\Desktop\MusicVideoGenerator\kbvs\temp\temp-kburns-video-script.txt" -t 9.0 -map [out]:v -c:v libx264 -preset ultrafast -tune stillimage -map [aout]:a -c:a aac -b:a 160k   "out.mp4"
+2022-12-20 03:12:31,180 | INFO | FFMPEG finished
+2022-12-20 03:12:31,180 | INFO | Clean Video processing

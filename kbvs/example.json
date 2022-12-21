@@ -1,0 +1,57 @@
+{
+    "config": {
+        "output_width": 1920,
+        "output_height": 1080,
+        "slide_duration": 3,
+        "slide_duration_min": 1,
+        "fade_duration": 1.0,
+        "transition": "random",
+        "transition_bars_count": 10,
+        "transition_cell_size": 100,
+        "fps": 60,
+        "zoom_rate": 0.1,
+        "zoom_direction_x": "random",
+        "zoom_direction_y": "random",
+        "zoom_direction_z": "random",
+        "scale_mode": "auto",
+        "loopable": false,
+        "overwrite": false,
+        "generate_temp": false,
+        "delete_temp": false,
+        "sync_to_audio": false,
+        "sync_titles_to_slides": false,
+        "is_synced_to_audio": false
+    },
+    "slides": [
+        {
+            "file": "data\\1.png",
+            "slide_duration": 5,
+            "overlay_text":{
+                "title": "Title 1",
+                "font": "Bauhaus 93",
+                "font_size": 200,
+                "duration": 2,
+                "transition_x": "left-to-center",
+                "transition_y": "center",
+                "offset": 0
+            },
+            "overlay_color":{
+                "color": "black",
+                "opacity": 0.8,
+                "duration": 2,
+                "offset": 0
+            }
+        },
+
+        {
+            "file": "data\\2.png"
+        },
+
+        {
+            "file": "data\\3.png"
+        }
+    ],
+    "audio": [
+        "data/music.mp3"
+    ]
+}
