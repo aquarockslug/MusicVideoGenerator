@@ -19,6 +19,7 @@ def init():
         print('loaded %s.json' % projectData['title'])
     else:# generate librosa data if no json found
         librosaData['beats'] = getBeats(projectData['songPath'])
+        # get onsets
         saveFile(projectData['title'], librosaData)
 
     start(librosaData)
