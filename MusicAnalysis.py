@@ -1,11 +1,12 @@
 import librosa, threading, json, time, os
 from playsound import playsound
-
 projectData = {
     'title': 'Daze',
     'song': 'Daze.mp3',
     'musicDir': 'music/'
 }
+
+playSong = True
 
 librosaData = {}
 
@@ -19,10 +20,9 @@ def init():
         print('loaded %s.json' % projectData['title'])
     else:# generate librosa data if no json found
         librosaData['beats'] = getBeats(projectData['songPath'])
-        # get onsets
         saveFile(projectData['title'], librosaData)
 
-    start(librosaData)
+    if playSong: start(librosaData)
 
 def start(librosaData):
     threading.Thread(target=timeKeeper, args=(librosaData,)).start()
