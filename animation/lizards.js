@@ -8,23 +8,33 @@ fetch('./Daze.json')
 
 function start(beats){
     grid = document.getElementById('grid')
-    // up left down right
-    angles = ['rotate(0deg)', 'rotate(90deg)', 'rotate(180deg)', 'rotate(270deg)']
+    // up left down right, last first from end
+    angles = ['rotate(0deg)', 'rotate(240deg)', 'rotate(120deg)']
     for (let i = 0; i < beats.length; i++) {
-        var lizard = document.createElement('img');
-        lizard.setAttribute('src', 'svg/lizard.svg');
-        lizard.setAttribute('class', 'lizard');
-        lizard.setAttribute('id', "L"+i);
+        var hex = document.createElement('div');
+        hex.setAttribute('class', 'hex');
+        hex.setAttribute('id', "L"+i);
+
         //lizard.style.transform = 'translateX('+(i*1)+'px)';
-        lizard.style.transform = angles[i%4];
-        grid.appendChild(lizard);
+        hex.style.transform = angles[i%angles.length];
+        //hex.style.transform = 'rotate(120deg)';
+        grid = document.getElementById('grid');
+        grid.appendChild(hex);
     }
 
+    
+    // playAudio()
+    animate()
+}
+
+function playAudio() {
     var audio = new Audio('../music/Daze.mp3');
     audio.play();
+}
 
+function animate(){
     anime({
-        targets: '.lizard', 
+        targets: '.hex', 
         strokeDashoffset: [anime.setDashoffset, 0],
         easing: 'easeInOutSine',
         delay: function(el, i) {return beats[i]},
@@ -37,6 +47,4 @@ function start(beats){
         opacity: 0,
         direction: 'reverse',
     })
-
-    
 }
